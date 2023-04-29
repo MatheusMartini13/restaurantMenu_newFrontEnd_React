@@ -1,0 +1,8 @@
+.sideDiv {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+  align-items: center;
+	align-self: self-start;
+	width: 16.6rem;
+}

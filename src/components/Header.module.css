@@ -1,0 +1,88 @@
+.centerDiv {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 9rem;
+  margin-top: -1rem;
+}
+
+.textDiv {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 2.3rem;
+  border: #5e5e60 solid;
+  border-width: 0px 0px .12rem 0px;
+  width: 50rem;
+}
+
+.textDiv p{
+  font-family: 'Bodoni Moda';
+  font-weight: 400;
+  color: #5e5e60;
+  letter-spacing: .6rem;
+}
+
+.textDiv i{
+  font-family: 'Libre Baskerville';
+}
+
+.rightDiv {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	border: solid #5e5e61;
+  width: 35rem;
+	border-width: 0px 0px .12rem 0px;
+	height: 100%;
+	font-size: xx-large;
+}
+
+.middleDiv {
+  width: 2.76rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	border: solid #5e5e61;
+	border-width: 0px 0.12rem .12rem .12rem;
+	height: 100%;
+}
+
+.middleDiv p {
+	writing-mode: vertical-rl;
+	font-size: smaller;
+	transform: rotate(180deg);
+}
+
+.leftDiv {
+  display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+  width: 12rem;
+	border: solid #5e5e61;
+	border-width: 0px 0px 0.12rem 0px;
+	height: 100%;
+}
+
+.leftDiv p {
+	text-transform: uppercase;
+	padding: 0.2rem;
+	margin: 0;
+	font-size: small;
+}
+
+.leftDiv h1 {
+	padding-bottom: 0.3rem;
+	margin-bottom: 0.8rem;
+	font-size: x-large;
+}
+
+.underline {
+	border-bottom: #cc2128 solid;
+	padding: 0vh 2rem;
+}

@@ -1,0 +1,44 @@
+.mainDiv {
+	display: flex;
+}
+
+.deliveryDiv {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 3rem;
+	width: 33.28rem;
+	border: solid;
+	border-width: 0.12rem 0.12rem 0 0;
+  gap: .5rem
+}
+
+.deliveryDiv span{
+  letter-spacing: .4rem;
+  text-transform: lowercase;
+  font-style: italic;
+  font-size: x-large;
+}
+
+.deliveryDiv i{
+  font-family: 'Bodoni Moda';
+  text-transform: lowercase;
+  font-style: italic;
+  font-size: x-large;
+  letter-spacing: .3rem;
+}
+
+.siteDiv {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 3rem;
+	width: 16.6rem;
+	border: solid;
+	border-width: 0.12rem 0 0 0;
+	text-align: center;
+  font-family: 'Bodoni Moda';
+  text-transform: uppercase;
+  font-size: medium;
+  font-weight: 800;
+}

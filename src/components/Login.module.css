@@ -1,0 +1,94 @@
+.loginText {
+	position: relative;
+	top: -11.5rem;
+	left: 23rem;
+	font-family: 'Bodoni Moda';
+	text-transform: lowercase;
+	font-style: italic;
+	font-size: small;
+	height: 0;
+}
+
+.loginText:hover {
+	color: black;
+	cursor: pointer;
+}
+
+.newText {
+	position: relative;
+	top: -11.5rem;
+	left: 18rem;
+	font-family: 'Bodoni Moda';
+	text-transform: lowercase;
+	font-style: italic;
+	font-size: small;
+	height: 0;
+}
+
+.newText:hover {
+	color: black;
+	cursor: pointer;
+}
+
+.backgroundDiv {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: black;
+	opacity: 0.6;
+	z-index: 1;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+}
+
+.visibleArea {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	top: 30%;
+	right: 30%;
+	width: 40%;
+	height: 40%;
+	gap: 0.5rem;
+	background-color: #fcfbf3;
+	z-index: 1;
+}
+
+.visibleArea h1 {
+	margin: 0.2rem;
+	font-size: x-large;
+	text-transform: lowercase;
+}
+
+.visibleArea div {
+	width: 60%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.visibleArea label {
+	width: 10rem;
+}
+
+.visibleArea input {
+	width: 9rem;
+	font-family: 'Libre Baskerville';
+	border-radius: 1rem;
+	text-align: center;
+}
+
+.visibleArea p {
+	color: #5d5e60;
+}
+
+.visibleArea p:hover {
+	color: #cc2128;
+	cursor: pointer;
+}

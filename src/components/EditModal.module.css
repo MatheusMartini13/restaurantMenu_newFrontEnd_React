@@ -1,0 +1,84 @@
+.modalText {
+	position: relative;
+	top: -11.5rem;
+	left: 23rem;
+	font-family: 'Bodoni Moda';
+	text-transform: lowercase;
+	font-style: italic;
+	font-size: small;
+	height: 0;
+}
+
+.modalText:hover {
+	color: black;
+	cursor: pointer;
+}
+
+.backgroundDiv {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: black;
+	opacity: 0.6;
+	z-index: 1;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+}
+
+.modalArea {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	top: 20%;
+	right: 30%;
+	width: 40%;
+	height: 60%;
+	gap: 0.5rem;
+	background-color: #fcfbf3;
+	z-index: 1;
+}
+
+.modalArea h1 {
+	margin: 0.2rem;
+	font-size: x-large;
+	text-transform: lowercase;
+}
+
+.modalArea div {
+	width: 85%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.gapedDiv {
+	gap: 2rem;
+}
+
+.modalArea label {
+	width: 10rem;
+}
+
+.modalArea input,
+select {
+	width: 9rem;
+	font-family: 'Libre Baskerville';
+	border-radius: 1rem;
+	text-align: center;
+	border: 1px solid black;
+}
+
+.modalArea p {
+	color: #5d5e60;
+}
+
+.modalArea p:hover {
+	color: #cc2128;
+	cursor: pointer;
+}

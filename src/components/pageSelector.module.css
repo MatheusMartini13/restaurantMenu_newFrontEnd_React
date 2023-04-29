@@ -1,0 +1,39 @@
+.selectorDiv {
+  width: 95%;
+  height: 1.4rem;
+  display: flex;
+  gap: 0.2rem;
+  justify-content: end;
+  align-items: center;
+  padding-right: 1rem;
+}
+
+.selectorDiv p {
+  padding: 0;
+  margin: 0;
+  font-size: small;
+}
+
+.previous{
+  font-size: small;
+  transform: rotate(180deg);
+}
+
+.previous:hover {
+  color: #cc2128;
+  cursor: pointer;
+}
+
+.next{
+  font-size: small;
+}
+
+.next:hover {
+  color: #cc2128;
+  cursor: pointer;
+}
+
+.borderBottom {
+	border: solid;
+	border-width: 0rem 0rem .12rem 0rem;
+}

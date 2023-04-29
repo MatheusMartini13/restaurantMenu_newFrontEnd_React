@@ -1,0 +1,64 @@
+.containerDiv {
+	display: flex;
+	flex-direction: column;
+	padding: 0.5rem 0 0.5rem 0;
+}
+
+.rightContentDiv {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 1rem;
+}
+
+.leftContentDiv {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 1.8rem;
+}
+
+.divOrganizerLeft {
+	margin-left: -2.5rem;
+	width: 12rem;
+}
+
+.divOrganizerRight {
+	width: 3.5rem;
+}
+
+.editOrganizer {
+	font-family: 'Libre Baskerville';
+	text-transform: lowercase;
+	width: 0rem;
+	font-style: italic;
+	color: #cc2128;
+	font-size: small;
+}
+
+.editOrganizer:hover {
+	font-weight: 600;
+	color: #5e5e60;
+	cursor: pointer;
+}
+
+.title {
+	font-family: 'Bodoni Moda';
+	text-transform: lowercase;
+	font-size: x-large;
+	text-align: left;
+	padding-left: 1rem;
+}
+
+.categories {
+	font-family: 'Libre Baskerville';
+	font-style: italic;
+	font-size: small;
+	text-align: left;
+	padding-left: 1rem;
+}
+
+.borderBottom {
+	border: solid;
+	border-width: 0 0 0.12rem 0;
+}
